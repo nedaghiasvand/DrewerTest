@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+   android:background="@drawable/te_t"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="registration"
+        android:gravity="center"
+        android:layout_weight="0.5"
+        android:layout_marginBottom="5dp"
+        android:textSize="40sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp">
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="60dp">
+       <!--// android:background="@drawable/pass">-->
+
+
+    <EditText
+        android:id="@+id/edtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.9"
+        android:background="#ffeff8"
+        android:inputType="text"
+        android:text=""
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="name:"
+        android:layout_marginBottom="5dp"/>
+
+
+        <EditText
+            android:id="@+id/edtfamily"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:background="#ffeff8"
+            android:hint="family:"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:id="@+id/edtage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:background="#ffeff8"
+            android:hint="age"
+            android:layout_marginBottom="5dp"
+            />
+
+        <EditText
+            android:id="@+id/edtemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:background="#ffeff8"
+            android:hint="email:"
+            android:layout_marginBottom="5dp"
+            />
+        <EditText
+            android:id="@+id/edtmobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:background="#ffeff8"
+            android:hint="mobile"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" >
+        <Button
+            android:id="@+id/btnnext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#9b6bb3"
+            android:text="next"
+            android:textColor="#ffffff"
+          android:gravity="center" />
+    </LinearLayout>
+    </LinearLayout>
+  </ScrollView>
+
+
+</LinearLayout>
